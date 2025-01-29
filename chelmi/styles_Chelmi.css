@@ -1,6 +1,25 @@
+html{
+    background-color: aqua;
+}
 ul#menu li{
     display: inline;
     padding: 5px;
+}
+ul{
+    font-family: 'Lucida Sans', sans-serif;
+}
+header{
+    text-align: center;
+}
+header h1{
+    background-color: rgb(165, 161, 161);
+}
+header ul{
+    background-color: lightgray;
+}
+img{
+    float: right;
+    padding: 20px;
 }
 body{
     margin-left: 50px;
@@ -9,8 +28,18 @@ body{
     border-style: solid;
     border-width: 5px;
     padding: 15px;
-    
+    min-height: 800px;
 }
-html{
-    background-color: aqua;
+#intro{
+    font-size: larger;
 }
+
+h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
