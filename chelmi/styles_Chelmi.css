@@ -206,6 +206,8 @@ header a:hover{
     color: rgb(166, 233, 222);
 }
 
+/*---------   Media Responsive   ---------*/
+
 @media (min-width: 720px){
     header{
         position: fixed;
@@ -249,6 +251,71 @@ header a:hover{
         justify-content: center;
     }
 
+}
+
+
+/*----------      Index      -----------*/
+
+
+#hero-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("assets/withel_cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#mian{
+    background-color: rgb(100,100,100);
+    color: white;
+    text-align: center;
+}
+
+#mian .container{
+    padding: 100px 0px;
+}
+
+#main h3{
+    margin-top: 0;
+    font-size: 3.2em;
+    color: rgb(104, 160, 233);
+}
+
+#main .carta-index{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.carta-index:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.637),
+        rgba(0, 0, 0, 0.699)
+    )
+    ,url("assets/yo.jpg");
+}
+
+#work_xp .carta-index:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.637),
+        rgba(0, 0, 0, 0.699)
+    )
+    ,url("assets/jesus.jpg");
 }
 
 
